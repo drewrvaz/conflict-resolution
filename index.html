@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="8">
+    <title>CSS Snippets</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+        <h1>CSS Snippet Cheatsheet</h1>
+        <p>
+            Ever have trouble recalling the exact syntax for your favorite CSS code? Give it a permanent
+            home and add it to this page! select any snippet below and it'll automatically select all of
+            the code for you to copy
+        </p>
+    </header>
+
+    <section class="flexbox-container">
+        <div>
+            <h2>Flexbox Row</h2>
+            <p>Use these three properties to create a flexbox row layout</p>
+            <div class="box">
+                <p>.row {</p>
+                <p class="indent">display: flex;</p>
+                <p class="indent">flex-direction: row;</p>
+                <p class="indent">flex-wrap: wrap;</p>
+                <p>}</p>
+            </div>
+        </div>
+
+        <div>
+            <h2>Flexbox Column</h2>
+            <p>Use this to create a flexbox column layout</p>
+            <div class="box">
+                <p>.column {</p>
+                <p class="indent">display: flex;</p>
+                <p class="indent">flex-direction: column;</p>
+                <p>}</p>
+            </div>
+        </div>
+
+        <div>
+            <h2>CSS Grid Layout</h2>
+            <p>Build a 12-column layout using CSS grid</p>
+            <div class="box">
+                <p>.grid {</p>
+                <p class="indent">display: grid;</p>
+                <p class="indent">width: 100%;</p>
+                <p class="indent">grid-template-columns:</p>
+                <p>repeat(12, 1fr);</p>
+                <p>}</p>
+            </div>
+        </div>
+
+        <div>
+            <h2>Linear Gradients</h2>
+            <p>This will create a background linear gradient from top to bottom</p>
+            <div class="box">
+                <p>.linear-gradient-background {</p>
+                <p class="indent">background-image: linear-</p>
+                <p class="indent">gradient(</p>
+                <p class="double-indent">rgba(232, 102, 236, 0.3) 0%,</p>
+                <p class="double-indent">rgba(232, 102, 236, 0.6) 100%</p>
+                <p class="indent">);</p>
+                <p>}</p>
+            </div>
+        </div>
+            <h2>Box Transition Glow</h2>
+            <p>Use transition and box shadows to glow on hover</p>
+            <div class="box">
+                <p>.code-card .card-header {</p>
+                <p class="indent">boder-radius: 8px;</p>
+                <p class="indent">transition: all 0.5s ease-in-</p>
+                <p>out;</p>
+                <p>}</p>
+                </br>
+
+                <p>.code-card:hover,</p>
+                <p>.code-card:hover .card-header }</p>
+                <p class="indent">box-shadow: inset 0px 0px 8px</p>
+                <p>rgba(232, 102, 236, 1), 0 0 15px</p>
+                <p>rgba(232, 102, 236, 1);</p>
+                <p>}</p>
+            </div>
+        <div>
+
+        </div>
+    </section>
+</body>
+
+</html>
