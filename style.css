@@ -1,0 +1,16 @@
+:root {
+    --outerspace: midnightblue;
+    --coral: coral;
+    --snow: snow;
+    --lightblue: lightsteelblue;
+}
+
+::selection {
+    background-color: var(--coralcoral);
+    color: var(--outerspace);
+}
+
+html {
+    font-size: 62.5%;
+}
+
